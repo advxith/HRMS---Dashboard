@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container
+{
+  display: flex ;
+  
+}
+main{
+  width: 100%;
+  padding:20px;
+}
+.sidebar{
+  background: black;
+  color: white;
+  width: 300px;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+.top_section
+{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 500px;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: lightskyblue;
+  color:#000;
+}
+.icon, .link_text{
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+.home {
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\src\Images\Home.jfif" );
+  height: 68vh;
+  width: 100vh;
+}
+
+.dashboard{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\src\Images\dashboard.jpg");
+  height: 70vh;
+  width: 100vh;
+}
+
+.about1{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\about1.jpg");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 50vh;
+  width: 190vh;
+  background-position: 65% 0;
+
+}
+
+.about2{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\about2.jpg");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 50vh;
+  width: 150vh;
+}
+
+.about3{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\mission.jpg");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 55vh;
+  width: 90vh;
+  background-position: 50% 0;
+}
+
+.about4{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\vision.png");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 58vh;
+  width: 90vh;
+  background-position: 50% 0;
+}
+
+.about5{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\about4.webp");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 80vh;
+  width: 90vh;
+  background-position: 50% 0;
+}
+
+.fourth{
+  /* background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\contact.jpg"); */
+  background-color: white;
+  /* background-repeat: no-repeat; 
+  background-size:cover;
+  background-position: 50% 0; */
+
+}
+
+
+.home1{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\hr1.jpg");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 100vh;
+  width: 120vh;
+}
+
+.home2{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\1437240_employee-expectations-2_082622.png");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 100vh;
+  width: 140vh;
+}
+
+.final1{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\last1.png");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 70vh;
+  width: 100vh;
+}
+
+.final2{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\final2.jpg");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 65vh;
+  width: 68vh;
+}
+
+.final3{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\final3.jpg");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 70vh;
+  width: 68vh;
+}
+
+.final4{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\images\final4.webp");
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 68vh;
+  width: 68vh;
+}
+
+.comments{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\src\Images\comments.png");
+  height: 70vh;
+  width: 110vh;
+}
+
+.product{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\src\Images\product.png");
+  height: 70vh;
+  width: 135vh;
+}
+
+.productlist{
+  background-image: url("C:\Users\user\Desktop\react1\page\webpage\src\Images\productlist.png");
+  height: 62vh;
+  width: 90vh;
+}
